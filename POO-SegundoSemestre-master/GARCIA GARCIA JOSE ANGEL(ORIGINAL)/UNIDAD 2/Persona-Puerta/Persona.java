@@ -1,0 +1,23 @@
+public class Persona
+{
+ private String nombre;
+ public Persona(String nombre){
+    setnombre(nombre);
+    }
+ public void abrir(Puerta p){
+    if(p.getestado()==false){
+    p.setestado(true);
+    }
+    } 
+  public void cerrar(Puerta p){
+    if(p.getestado()==true){
+    p.setestado(false);
+    }
+    }       
+ public void setnombre(String nombre){
+    this.nombre=nombre;
+    }   
+ public String getnombre(){
+    return nombre;
+    }   
+}

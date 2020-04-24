@@ -1,0 +1,21 @@
+public class Puerta
+{
+ private boolean estado;
+ private Cerrojo cerr;
+ public Puerta(boolean estadao,Cerrojo cerr){
+    setestado(estado);
+    setcerrojo(cerr);
+    }
+ public void setestado(boolean estado){
+    this.estado=estado;
+    }   
+ public boolean getestado(){
+    return estado;
+    }      
+ public void setcerrojo(Cerrojo cerr){
+    this.cerr=cerr;
+    } 
+ public Cerrojo getcerroj(){
+    return cerr;
+    }
+}

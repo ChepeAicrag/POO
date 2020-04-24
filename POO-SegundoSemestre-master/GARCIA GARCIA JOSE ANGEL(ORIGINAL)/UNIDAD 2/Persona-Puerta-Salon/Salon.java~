@@ -1,0 +1,21 @@
+public class Salon
+{
+  private String nombre;
+  private Puerta pue;
+  public Salon(String nombre, Puerta p){
+    setnombre(nombre);
+    setpuerta(p);
+    }
+  public void setnombre(String nombre){
+    this.nombre=nombre;
+    }  
+  public String getnombre(){
+    return nombre;
+    }  
+  public void setpuerta(Puerta p){
+    this.p=p;
+    }  
+  public Puerta getpuerta(){
+    return p;
+    }  
+}

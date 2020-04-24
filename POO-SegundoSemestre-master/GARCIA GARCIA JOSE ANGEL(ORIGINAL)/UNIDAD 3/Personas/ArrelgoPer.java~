@@ -1,0 +1,21 @@
+import java.util.*;
+public class ArrelgoPer
+{      
+private Persona[] arregloper=new Persona[5000];    
+public ArregloPer(){ 
+   String nombres[]={"Juan","Pedro","Kevin","David","Melvin","Sergio","Daniel","José","Ricardo","ELmer","Uriel","Aaron","Jesus","Ángel","Alejandro","Paul","Jairo","Mateo"};
+   String apellidos[]={"Garcia","Perez","Sanchez","Gonzalez","Sierra","Pascual","Cortez","Vasquez","Chavez","Díaz",
+                         "Delgado","Muñoz","Palma","Gutierrez","Martinez","Wariste","Cruz","Campos"};     
+   for(int i=0;i<5000;i++){
+    arregloper[i]=new Persona(nombres[(int)(Math.random()*18.)],apellidos[(int)(Math.random()*18)],apellidos[(int)(Math.random()*18)],(int)(Math.random()*100));
+   }                      
+  }
+public Vector hombresconletrainicialpx(char x){
+ Vector <Persona> otros=new Vector <Persona> (5000);
+ for(int i=0;i<500;i++){
+    if((arregloper[i].getSexo()=='H')&&(arregloper[i].getApellido().charAt(0)=='x')){
+    otros.add(arregloper[i]);
+    }
+    }
+}  
+}

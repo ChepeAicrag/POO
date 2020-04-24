@@ -1,0 +1,7 @@
+public class Excepciones
+{
+  public static String LeerNumero(){
+    
+    
+    }
+}
